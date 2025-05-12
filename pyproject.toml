@@ -1,7 +1,13 @@
 [project]
 name = "mingpt-jax"
 version = "0.1.0"
-description = "Add your description here"
+description = "Re-implementation of minGPT in jax"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "datasets>=3.5.0",
+    "rotary-embedding-torch>=0.8.6",
+    "torch>=2.6.0",
+    "transformers>=4.51.3",
+    "wandb>=0.19.9",
+]

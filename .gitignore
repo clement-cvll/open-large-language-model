@@ -172,3 +172,42 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and model files
+*.pt
+*.pth
+*.bin
+*.h5
+*.npy
+*.npz
+*.csv
+*.jsonl
+*.json.gz
+*.tfevents
+
+# Logs and outputs
+logs/
+outputs/
+runs/
+*.log
+
+# Local development files
+*.local
+*.bak
+*.tmp
+*.temp
+
+# macOS files
+.DS_Store
+
+# Wandb files
+wandb/
+
+# Checkpoint files
+checkpoints/
