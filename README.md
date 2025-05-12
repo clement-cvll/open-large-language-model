@@ -58,6 +58,3 @@ This project draws inspiration from:
 - **minGPT**: A minimal PyTorch re-implementation of GPT by Andrej Karpathy.
 - **nanoGPT**: A simplified and efficient GPT implementation, also by Andrej Karpathy.
 - **Deepseek V2**: For modern architectural choices like low-rank attention and SwiGLU.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
